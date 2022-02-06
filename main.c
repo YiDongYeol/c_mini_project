@@ -20,12 +20,12 @@ void mod(s *s, int index);
 void prt(s *s, int index);
 void src(s* s, int index);
 
-int example(s* s);
+int sample(s* s);
 
 void main() {
 	s s[MAX];
 	int index = 0;
-	index=example(s);
+	index=sample(s);
 
 	while (1) {
 		system("cls");
@@ -138,7 +138,7 @@ void src(s *s, int index){
 	getch();
 }
 
-int example(s *s){
+int sample(s *s){
 	strcpy(s[0].name, "홍길동");
 	s[0].eng = 60;
 	s[0].kor = 70;
